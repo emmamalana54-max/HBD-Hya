@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff0f6">
+  <title>Happy Birthday, Hyacinth! 💗</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient-glow glow-one"></div>
+  <div class="ambient-glow glow-two"></div>
+  <div id="floating-decor" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Birthday page home"><span class="brand-heart">♡</span> a little something for you</a>
+    <button id="music-toggle" class="music-toggle" type="button" aria-pressed="false">
+      <span id="music-icon" aria-hidden="true">♫</span><span id="music-label">Play music</span>
+    </button>
+  </header>
+
+  <main>
+    <section id="home" class="hero section-wrap">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-star">✦</span> A day made extra special <span class="eyebrow-star">✦</span></p>
+        <h1>Happy Birthday,<br><span class="name-script">Hyacinth!</span> <span class="cake-emoji">🎂</span></h1>
+        <p class="hero-subtitle">Today is all about you, and you deserve all the happiness in the world.</p>
+        <p class="hero-note">A tiny corner of the internet, made with lots of love just for you. ♡</p>
+        <button id="open-letter" class="primary-button" type="button">Open Your Birthday Surprise <span>💌</span></button>
+        <a class="scroll-link" href="#celebrate">there's more waiting for you <span>↓</span></a>
+      </div>
+      <div class="hero-art" aria-label="Decorative birthday illustration">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <span class="hero-sparkle sparkle-a">✦</span>
+        <span class="hero-sparkle sparkle-b">✧</span>
+        <span class="hero-sparkle sparkle-c">✦</span>
+        <div class="heart-cloud heart-cloud-one">♡</div>
+        <div class="heart-cloud heart-cloud-two">♥</div>
+        <button id="gift-trigger" class="gift-trigger" type="button" aria-label="Click the birthday gift to open Hyacinth's letter">
+          <img class="birthday-gif" src="birthday.gif" alt="Cute animated birthday celebration for Hyacinth">
+          <span class="gift-click-hint">click the gift to open your letter ♡</span>
+        </button>
+        <div class="tiny-flower flower-one">✿</div>
+        <div class="tiny-flower flower-two">✿</div>
+        <div class="hero-caption">made just for you</div>
+      </div>
+    </section>
+
+    <section id="letter-section" class="letter-section section-wrap" aria-labelledby="letter-heading">
+      <div class="section-heading">
+        <p class="eyebrow">A little note from the heart</p>
+        <h2 id="letter-heading">Words just for <span>you</span></h2>
+        <p>Some wishes are too special to fit inside a gift box.</p>
+      </div>
+      <div id="letter-backdrop" class="letter-backdrop" aria-hidden="true">
+      <article id="birthday-letter" class="letter-card" role="dialog" aria-modal="true" aria-label="Birthday letter for Hyacinth" aria-hidden="true">
+        <div class="letter-top"><span>♡</span><span>for Hyacinth</span><span>♡</span></div>
+        <div class="letter-content">
+          <p class="letter-greeting">Dear Hyacinth,</p>
+          <p>Happy Birthday! 💗</p>
+          <p>Today is a special day because it celebrates someone as wonderful as you. I hope your birthday brings you genuine happiness, beautiful memories, and countless reasons to smile.</p>
+          <p>I want you to know that you deserve all the good things life has to offer. May you continue to grow into the person you dream of becoming, achieve your goals, and find happiness even in the smallest moments.</p>
+          <p>Thank you for being someone worth appreciating. I hope this new chapter of your life brings you peace, exciting opportunities, unexpected blessings, and people who make you feel loved and valued.</p>
+          <p>No matter what challenges come your way, I hope you never forget how special you are and how much your presence can mean to the people around you.</p>
+          <p>Enjoy your special day, Hyacinth. Keep smiling, keep dreaming, and never stop being the wonderful person you are.</p>
+          <p class="letter-emphasis">Happy Birthday once again! 🎂🎀</p>
+          <p class="letter-signoff">With love and warm wishes,<br><span>Someone who wishes you the best 💗</span></p>
+        </div>
+        <div class="letter-bottom">sealed with a little love <span>♡</span></div>
+        <div class="letter-actions">
+          <button id="close-letter" class="secondary-button" type="button">Close Letter</button>
+          <button id="read-again" class="text-button" type="button">Read Again ↻</button>
+        </div>
+      </article>
+      </div>
+      <div id="letter-teaser" class="letter-teaser">
+        <div class="envelope-icon">💌</div>
+        <p>A birthday letter is waiting for you.</p>
+        <button id="reopen-letter" class="secondary-button" type="button">Open the letter</button>
+      </div>
+    </section>
+
+    <section id="celebrate" class="celebrate-section section-wrap">
+      <div class="section-heading">
+        <p class="eyebrow">Make a birthday wish</p>
+        <h2>A little cake, <span>a lot of love</span></h2>
+        <p>Close your eyes, make a wish, and tap the button when you're ready. ✨</p>
+      </div>
+      <div class="cake-stage">
+        <div class="cake-glow"></div>
+        <div class="cake" aria-label="Illustrated birthday cake">
+          <div class="candles" id="candles">
+            <div class="candle"><span class="flame"></span><span class="wick"></span></div>
+            <div class="candle"><span class="flame"></span><span class="wick"></span></div>
+            <div class="candle"><span class="flame"></span><span class="wick"></span></div>
+          </div>
+          <div class="cake-top"></div>
+          <div class="cake-layer layer-top"><span class="icing-drip drip-one"></span><span class="icing-drip drip-two"></span><span class="icing-drip drip-three"></span></div>
+          <div class="cake-layer layer-bottom"><span class="icing-drip drip-four"></span><span class="icing-drip drip-five"></span></div>
+          <div class="cake-plate"></div>
+        </div>
+        <div class="cake-stars star-left">✧</div><div class="cake-stars star-right">✦</div>
+      </div>
+      <div class="cake-controls">
+        <button id="blow-candles" class="primary-button" type="button">Blow Out the Candles 🕯️</button>
+        <button id="celebrate-button" class="secondary-button" type="button">Celebrate! 🎉</button>
+      </div>
+      <p id="wish-message" class="wish-message" role="status" aria-live="polite">Your wish can be as big as the sky. 💫</p>
+      <div class="surprise-card">
+        <div class="surprise-icon">💖</div>
+        <div class="surprise-copy">
+          <h3>One more thing...</h3>
+          <p id="surprise-text">There's a little reminder waiting just for you.</p>
+        </div>
+        <button id="reveal-surprise" class="surprise-button" type="button">Reveal my surprise ✨</button>
+      </div>
+    </section>
+
+    <section class="closing section-wrap">
+      <div class="closing-heart">♡</div>
+      <p class="closing-script">Keep shining, Hyacinth.</p>
+      <h2>The world is sweeter with you in it.</h2>
+      <p>May this year bring you soft days, brave dreams, kind people, and a thousand little reasons to smile.</p>
+      <a href="#home" class="back-top">Back to the beginning ↑</a>
+    </section>
+  </main>
+
+  <footer>made with ♡, just for Hyacinth</footer>
+
+  <!-- Optional music: the Web Audio API creates a gentle original melody after the visitor presses Play. -->
+  <script src="script.js"></script>
+</body>
+</html>
